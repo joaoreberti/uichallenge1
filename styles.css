@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Indie Flower", cursive;
+  color: white;
+  font-size: 1.2rem;
+}
+
+body {
+  background: url("/img/background.jpg") no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(25, 21, 21, 0.45);
+  text-align: center;
+  height: 10vh;
+  font: 900;
+  justify-content: center;
+}
+
+header > h1 {
+  padding-top: 15px;
+}
+
+main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+    width: 25%;
+    position: fixed;
+    padding: 10px 0 0 97px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 9vh;
+}
+
+.formulario{
+    width: 500px;
+    padding-top: 0;
+    background-color: #c4c4c4;
+    border: 1px slategrey solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:row ;
+}
+
+.formulario > label {
+
+    width: calc(100%/10);
+
+}
+
+
+button[type=submit]{
+    background: bottom;
+    border: none;
+    cursor: pointer;
+}
+
+
+input[type="text"] {
+  width: 20%;
+  background-color: transparent;
+}
+
+
+.list > h2 {
+  background-color: #1e1c1cd1;
+}
+
+.list {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  text-shadow: 2px 2px black;
+}
+
+footer {
+  background-color: #ffffffb3;
+  text-align: center;
+  list-style: none;
+  height: 10vh;
+}
+
+footer > ul > li {
+  color: black;
+}
+
+[type="date"] {
+  background: #fff
+    url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+    97% 50% no-repeat;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  width: 190px;
+}
